@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, DetailedHTMLProps, DetailsHTMLAttributes, ReactNode } from 'react'
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from 'react'
 import cn from 'classnames'
 
 import styles from './Button.module.css'

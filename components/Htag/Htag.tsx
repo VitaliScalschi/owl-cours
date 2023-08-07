@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode, DetailedHTMLProps, HTMLAttributes } from "react";
 import style from "./Htag.module.css";
 
-interface HtagProps {
+interface HtagProps extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>,HTMLParagraphElement> {
   tag: "h1" | "h2" | "h3";
   children: ReactNode;
 }
